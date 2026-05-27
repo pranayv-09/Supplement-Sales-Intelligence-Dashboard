@@ -18,7 +18,7 @@ Upload ANY CSV file and automatically generate:
 # 🚀 Live Demo
 
 ## 🌐 Streamlit App
-https://supplement-sales-intelligence-dashboard.streamlit.app/
+https://ai-powered-csv-dashboard.streamlit.app
 
 ## 💻 GitHub Repository
 https://github.com/pranayv-09/AI-Powered-CSV-Intelligence-Dashboard
