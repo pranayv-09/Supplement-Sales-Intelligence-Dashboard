@@ -21,7 +21,7 @@ Upload ANY CSV file and automatically generate:
 https://supplement-sales-intelligence-dashboard.streamlit.app/
 
 ## 💻 GitHub Repository
-https://github.com/pranayv-09/Supplement-Sales-Intelligence-Dashboard
+https://github.com/pranayv-09/AI-Powered-CSV-Intelligence-Dashboard
 
 ---
 
@@ -125,7 +125,7 @@ AI-Powered-CSV-Intelligence-Dashboard/
 Clone the repository:
 
 ```bash
-git clone https://github.com/pranayv-09/Supplement-Sales-Intelligence-Dashboard.git
+git clone https://github.com/pranayv-09/AI-Powered-CSV-Intelligence-Dashboard.git
 ```
 
 Install dependencies:
