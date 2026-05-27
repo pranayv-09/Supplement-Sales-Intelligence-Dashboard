@@ -1,191 +1,132 @@
-# 📊 Supplement Sales Intelligence Dashboard
+# 📊 AI Powered CSV Intelligence Dashboard
 
-An end-to-end Data Analytics project built using Python, Power BI, and Streamlit to analyze supplement sales data, generate business insights, and forecast future revenue trends.
+An advanced AI-powered analytics dashboard built using Python, Streamlit, Pandas and Plotly.
 
----
+Upload ANY CSV file and automatically generate:
 
-## 🚀 Project Overview
-
-This project simulates a real-world supplement sales business and provides:
-
-- Sales Performance Analysis
-- Product-wise Revenue Insights
-- State-wise Revenue Analysis
-- Customer Segmentation
-- Interactive Dashboard Filtering
-- Revenue Forecasting for Future Months
-- CSV Upload & Dynamic Dashboard Updates
-
-The project demonstrates the complete Data Analytics workflow from raw data generation to deployment-ready dashboards.
+- 📈 Interactive Charts
+- 📊 KPI Metrics
+- 🔥 Correlation Heatmaps
+- 🧠 AI Generated Insights
+- 🎯 Smart Filters
+- 📉 Statistical Summaries
+- 📥 Downloadable Filtered Data
+- ⚡ Automatic Visual Analytics
 
 ---
 
-## 🛠 Tech Stack
+# 🚀 Live Demo
 
-### Programming & Analysis
+## 🌐 Streamlit App
+https://supplement-sales-intelligence-dashboard.streamlit.app/
+
+## 💻 GitHub Repository
+https://github.com/pranayv-09/Supplement-Sales-Intelligence-Dashboard
+
+---
+
+# 🖼️ Project Screenshots
+
+## Dashboard Overview
+![Dashboard](images/adv-dashboard1.png)
+
+## AI Insights & Smart Analytics
+![Insights](images/adv-dashboard2.png)
+
+## Correlation Heatmap
+![Heatmap](images/adv-dashboard3.png)
+
+## Smart Visualizations
+![Visualization](images/adv-dashboard4.png)
+
+---
+
+# 🛠️ Technologies Used
+
 - Python
+- Streamlit
 - Pandas
 - NumPy
-- Matplotlib
-- Seaborn
-
-### Forecasting
-- Scikit-Learn
-- Linear Regression
-
-### Dashboarding
-- Power BI
-- Streamlit
 - Plotly
-
-### Development Environment
-- VS Code
-- Jupyter Notebook
+- Scikit-Learn
 
 ---
 
-## 📂 Project Structure
+# ✨ Features
 
-```text
-SUPPLEMENT-SALES-INTELLIGENCE/
-│
-├── dashboards/
-│   └── Supplement_Sales_Dashboard.pbix
-│
-├── data/
-│   ├── raw/
-│   │   └── supplement_sales.csv
-│   │
-│   └── processed/
-│       ├── clean_supplement_sales.csv
-│       ├── dashboard_data.csv
-│       └── monthly_revenue.csv
-│
-├── images/
-│   ├── dashboard_overview.png
-│   ├── state_customer_analysis.png
-│   ├── forecast_analysis.png
-│   └── data_preview.png
-│
-├── notebooks/
-│   ├── 01_data_inspection.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_eda.ipynb
-│   ├── 04_forecasting.ipynb
-│   └── 05_dashboard_dataset.ipynb
-│
-├── scripts/
-│   └── generate_dataset.py
+## ✅ Universal CSV Support
+
+Upload any CSV file irrespective of:
+- Column names
+- Row count
+- Dataset type
+
+---
+
+## ✅ Smart Filtering System
+
+Dynamic sidebar filters generated automatically based on categorical columns.
+
+---
+
+## ✅ AI Generated Insights
+
+Automatically detects:
+- Dominant categories
+- Dataset health
+- Numerical trends
+- Feature statistics
+
+---
+
+## ✅ Automatic Visual Analytics
+
+Generates:
+- Histograms
+- Scatter Plots
+- Bar Charts
+- Pie Charts
+- Correlation Heatmaps
+
+---
+
+## ✅ Statistical Analysis
+
+Includes:
+- Mean
+- Median
+- Standard Deviation
+- Correlation Analysis
+- Missing Value Analysis
+
+---
+
+# 📂 Project Structure
+
+```bash
+AI-Powered-CSV-Intelligence-Dashboard/
 │
 ├── app.py
 ├── requirements.txt
+├── README.md
 ├── .gitignore
-└── README.md
+│
+├── images/
+├── data/
+├── notebooks/
+├── scripts/
+└── dashboards/
 ```
 
 ---
 
-## 📈 Key Features
+# ▶️ Run Locally
 
-### KPI Dashboard
+Clone the repository:
 
-- Total Revenue
-- Total Orders
-- Average Order Value (AOV)
-- Total Customers
-- Repeat Customer Percentage
-
----
-
-### Revenue Analysis
-
-- Monthly Revenue Trend
-- Revenue by Product
-- Revenue by State
-- Revenue by Customer Type
-
----
-
-### Interactive Filters
-
-Users can filter dashboard data by:
-
-- State
-- Product
-- Sales Channel
-
-The dashboard updates automatically based on selected filters.
-
----
-
-### Revenue Forecasting
-
-A machine learning model predicts future monthly revenue using historical sales data.
-
-Forecast includes:
-
-- Historical Revenue Trend
-- Next 3 Months Revenue Prediction
-- Forecast Visualization
-
----
-
-## 📸 Dashboard Screenshots
-
-### Main Dashboard
-
-![Dashboard](images/dashboard_overview.png)
-
----
-
-### State & Customer Analysis
-
-![State Analysis](images/state_customer_analysis.png)
-
----
-
-### Sales Forecasting
-
-![Forecast](images/forecast_analysis.png)
-
----
-
-### Data Preview
-
-![Data Preview](images/data_preview.png)
-
----
-
-## 📊 Dataset Information
-
-The dataset contains:
-
-| Feature | Description |
-|----------|-------------|
-| Order_ID | Unique Order Identifier |
-| Order_Date | Order Date |
-| Customer_ID | Customer Identifier |
-| Age | Customer Age |
-| Gender | Customer Gender |
-| State | Customer State |
-| Product_Name | Product Purchased |
-| Category | Product Category |
-| Quantity | Units Sold |
-| Unit_Price | Product Price |
-| Revenue | Sales Revenue |
-| Payment_Method | Payment Method |
-| Channel | Sales Channel |
-| Customer_Type | New / Repeat Customer |
-
-Total Records:
-
-```text
-10,000+
+```bash
+git clone https://github.com/pranayv-09/Supplement-Sales-Intelligence-Dashboard.git
 ```
-
----
-
-## ▶️ Running the Streamlit Dashboard
 
 Install dependencies:
 
@@ -193,71 +134,46 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the application:
+Run the app:
 
 ```bash
 streamlit run app.py
 ```
 
-Open:
+---
 
-```text
-http://localhost:8501
-```
+# 🌐 Deployment
+
+Deployed using Streamlit Cloud.
 
 ---
 
-## 📊 Power BI Dashboard
+# 🎯 Use Cases
 
-The project also includes an interactive Power BI dashboard featuring:
-
-- Executive KPI View
-- Product Performance Analysis
-- State Performance Analysis
-- Customer Segmentation
-
-File:
-
-```text
-dashboards/Supplement_Sales_Dashboard.pbix
-```
-
----
-
-## 🎯 Business Insights Generated
-
-Examples:
-
-- Identify top-selling products
-- Discover highest revenue states
-- Analyze customer retention
-- Compare sales channels
-- Monitor monthly sales trends
-- Forecast future business revenue
-
----
-
-## 👨‍💻 Author
-
-Pranay Verma
-
-Aspiring Data Analyst | Data Science Enthusiast
-
-Skills:
-- Python
-- SQL
-- Power BI
-- Excel
-- Machine Learning
+- Business Intelligence
+- Sales Analytics
+- CSV Data Exploration
 - Data Visualization
+- Exploratory Data Analysis
+- Dataset Health Monitoring
+- Automated Reporting
 
 ---
 
-## ⭐ Future Improvements
+# 👨‍💻 Author
 
-- Streamlit Cloud Deployment
-- Advanced Time Series Forecasting
-- Customer Lifetime Value Analysis
-- Sales Recommendation Engine
-- Real Database Integration
-- Automated Report Generation
+## Pranay Verma
+
+Built with Python, Machine Learning and Streamlit.
+
+---
+
+# ⭐ Future Improvements
+
+- AI Chat with CSV
+- Forecasting Module
+- PDF Report Export
+- Machine Learning Predictions
+- SQL Database Integration
+- User Authentication
+- Advanced Business Intelligence Reports
